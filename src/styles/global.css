@@ -1,0 +1,29 @@
+:root {
+  /* Theme: warm autumn (orange, deep red, cream, brown) */
+  --color-bg: #fff8ef;
+  --color-text: #2b1a10;
+  --color-accent: #d9621f;
+  --color-accent-2: #8e2b1d;
+  --color-muted: #8a7563;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: var(--font-body);
+  --radius: 10px;
+  --max-width: 1200px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: inherit; }
+
+button { font: inherit; cursor: pointer; }
