@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react'
 import AnnouncementBar from './components/AnnouncementBar.jsx'
+import useMotion from './hooks/useMotion.js'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Benefits from './components/Benefits.jsx'
@@ -13,6 +14,7 @@ import StickyBuyBar from './components/StickyBuyBar.jsx'
 import OrderModal from './components/OrderModal.jsx'
 
 export default function App() {
+  useMotion()
   const [orderOpen, setOrderOpen] = useState(false)
   const openOrder = useCallback(() => setOrderOpen(true), [])
   const closeOrder = useCallback(() => setOrderOpen(false), [])
