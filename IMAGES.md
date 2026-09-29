@@ -1,6 +1,8 @@
 # Images for Récolte (Site 1)
 
-Generate these with any AI image tool (ChatGPT, Gemini, Midjourney…), then:
+All four photos are included in `public/images/` as compressed WebP files generated with the built-in image generation tool. See [IMAGE-PROMPTS.md](IMAGE-PROMPTS.md) for the exact prompts.
+
+To replace or regenerate them:
 
 1. Convert to **WebP** and compress to **under 200 KB** each (squoosh.app or tinypng.com).
 2. Save them with the **exact file name** below in `public/images/`.
