@@ -15,11 +15,15 @@ Site 1 of 2: a focused sales page that sells **one hero product or bundle**.
 
 ## Concept
 
-- **Brand name:** _TBD_
-- **Hero product / bundle:** _TBD_
-- **Offer:** _TBD (e.g. "-40% Thanksgiving bundle, today only")_
-- **Target customer:** _TBD_
-- **Mood / palette:** warm autumn tones (orange, deep red, cream, brown)
+- **Brand name:** Récolte
+- **Hero product / bundle:** Le Coffret Récolte: 6 stoneware plates, 6 bowls, 6 linen napkins, 1 serving platter, 1 "Merci" card
+- **Offer:** Thanksgiving pre-sale, 54 900 FCFA instead of 89 000 FCFA (-38 %), free 48 h delivery, 27 boxes left
+- **Target customer:** hosts in Benin preparing a festive family meal, or looking for a gift for their hosts
+- **Mood / palette:** minimal, cream `#f6f1e9`, ink `#1f1b16`, terracotta `#b5532c`
+- **Fonts:** Instrument Serif (headings) + Inter (body), self-hosted
+- **Language:** French
+- **Images:** AI-generated, see [IMAGES.md](IMAGES.md) for the prompts and file names
+- **Content:** all text and prices live in `src/data/product.js`
 
 ## Page sections (top to bottom)
 
